@@ -3,13 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeyChat.App", "MonkeyChat.App\MonkeyChat.App.csproj", "{BCEC8B90-DFA5-4A94-9B25-FCCBA7FC2654}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonkeyChat.App", "MonkeyChat.App\MonkeyChat.App.csproj", "{BCEC8B90-DFA5-4A94-9B25-FCCBA7FC2654}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{1F82B5F4-0053-420C-8D64-76789F85A4F7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{E8BE8DA5-C07D-4233-9A0E-02DF8B63FFA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeyChat.Data", "MonkeyChat.Data\MonkeyChat.Data.csproj", "{04570FF4-8058-4BFB-B034-BACF243706D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonkeyChat.Data", "MonkeyChat.Data\MonkeyChat.Data.csproj", "{04570FF4-8058-4BFB-B034-BACF243706D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{0F18E262-6CC7-42FE-86AE-6E24E7BFA450}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeyChat.Services", "MonkeyChat.Services\MonkeyChat.Services.csproj", "{4B335320-F74D-4190-BB6B-C05F2EDF81B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeyChat.DTO", "MonkeyChat.DTO\MonkeyChat.DTO.csproj", "{FE977AE5-2D45-4A76-A15C-018D9C061415}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeyChat.Providers", "MonkeyChat.Providers\MonkeyChat.Providers.csproj", "{B85E08CC-4BD4-4CA9-B217-45E027F11C7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +33,18 @@ Global
 		{04570FF4-8058-4BFB-B034-BACF243706D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04570FF4-8058-4BFB-B034-BACF243706D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04570FF4-8058-4BFB-B034-BACF243706D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B335320-F74D-4190-BB6B-C05F2EDF81B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B335320-F74D-4190-BB6B-C05F2EDF81B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B335320-F74D-4190-BB6B-C05F2EDF81B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B335320-F74D-4190-BB6B-C05F2EDF81B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE977AE5-2D45-4A76-A15C-018D9C061415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE977AE5-2D45-4A76-A15C-018D9C061415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE977AE5-2D45-4A76-A15C-018D9C061415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE977AE5-2D45-4A76-A15C-018D9C061415}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B85E08CC-4BD4-4CA9-B217-45E027F11C7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B85E08CC-4BD4-4CA9-B217-45E027F11C7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B85E08CC-4BD4-4CA9-B217-45E027F11C7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B85E08CC-4BD4-4CA9-B217-45E027F11C7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +52,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{BCEC8B90-DFA5-4A94-9B25-FCCBA7FC2654} = {1F82B5F4-0053-420C-8D64-76789F85A4F7}
 		{04570FF4-8058-4BFB-B034-BACF243706D9} = {E8BE8DA5-C07D-4233-9A0E-02DF8B63FFA7}
+		{4B335320-F74D-4190-BB6B-C05F2EDF81B7} = {0F18E262-6CC7-42FE-86AE-6E24E7BFA450}
+		{FE977AE5-2D45-4A76-A15C-018D9C061415} = {0F18E262-6CC7-42FE-86AE-6E24E7BFA450}
+		{B85E08CC-4BD4-4CA9-B217-45E027F11C7A} = {0F18E262-6CC7-42FE-86AE-6E24E7BFA450}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2918DDCC-54FD-434F-B3FF-A5A3C7F4C78F}
