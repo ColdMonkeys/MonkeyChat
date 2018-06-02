@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeyChat.App", "MonkeyChat.App\MonkeyChat.App.csproj", "{BCEC8B90-DFA5-4A94-9B25-FCCBA7FC2654}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{1F82B5F4-0053-420C-8D64-76789F85A4F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{E8BE8DA5-C07D-4233-9A0E-02DF8B63FFA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeyChat.Data", "MonkeyChat.Data\MonkeyChat.Data.csproj", "{04570FF4-8058-4BFB-B034-BACF243706D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCEC8B90-DFA5-4A94-9B25-FCCBA7FC2654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCEC8B90-DFA5-4A94-9B25-FCCBA7FC2654}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCEC8B90-DFA5-4A94-9B25-FCCBA7FC2654}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCEC8B90-DFA5-4A94-9B25-FCCBA7FC2654}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04570FF4-8058-4BFB-B034-BACF243706D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04570FF4-8058-4BFB-B034-BACF243706D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04570FF4-8058-4BFB-B034-BACF243706D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04570FF4-8058-4BFB-B034-BACF243706D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BCEC8B90-DFA5-4A94-9B25-FCCBA7FC2654} = {1F82B5F4-0053-420C-8D64-76789F85A4F7}
+		{04570FF4-8058-4BFB-B034-BACF243706D9} = {E8BE8DA5-C07D-4233-9A0E-02DF8B63FFA7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2918DDCC-54FD-434F-B3FF-A5A3C7F4C78F}
+	EndGlobalSection
+EndGlobal
