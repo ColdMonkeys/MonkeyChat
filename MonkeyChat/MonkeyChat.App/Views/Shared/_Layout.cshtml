@@ -23,11 +23,17 @@
         <div class="overlay"></div>
 
         <!-- Sidebar -->
+        <div class="container">
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#search" class="glyphicon glyphicon-search"></a></li>
+            </ul>
+        </div>
         <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
             <ul class="nav sidebar-nav">
                 <li class="sidebar-brand">
                     <a href="#">
-                        Brand
+                        ColdMonkeys
                     </a>
                 </li>
                 <li>
@@ -37,31 +43,13 @@
                     <a href="#">About</a>
                 </li>
                 <li>
-                    <a href="#">Events</a>
-                </li>
-                <li>
                     <a href="#">Team</a>
                 </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Works <span class="caret"></span></a>
-                    <ul class="dropdown-menu" role="menu">
-                        <li class="dropdown-header">Dropdown heading</li>
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li><a href="#">Separated link</a></li>
-                        <li><a href="#">One more separated link</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">Services</a>
-                </li>
+                        
                 <li>
                     <a href="#">Contact</a>
                 </li>
-                <li>
-                    <a href="https://twitter.com/maridlcrmn">Follow me</a>
-                </li>
+          
             </ul>
         </nav>
         <!-- /#sidebar-wrapper -->
@@ -76,12 +64,24 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         
-                        <!--CONTENT-->>
+                        <!--CONTENT-->
                     </div>
                 </div>
             </div>
         </div>
         <!-- /#page-content-wrapper -->
+    </div>
+
+ 
+     
+
+
+    <div id="search">
+        <button type="button" class="close">×</button>
+        <form>
+            <input type="search" value="" placeholder="Search Users" />
+            <button type="submit"class="btn btn-primary">Search</button>
+        </form>
     </div>
  
     <div class="container body-content">
@@ -97,6 +97,8 @@
         <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
         <script src="~/js/site.js" asp-append-version="true"></script>
         <script src="~/js/navbarScript.js" asp-append-version="true"></script>
+        <script src="~/js/SearchScript.js" asp-append-version="true"></script>
+
 
     </environment>
     <environment exclude="Development">
