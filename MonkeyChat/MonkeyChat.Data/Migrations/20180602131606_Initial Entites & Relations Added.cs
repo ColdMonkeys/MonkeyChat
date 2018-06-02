@@ -178,6 +178,7 @@ namespace MonkeyChat.Data.Migrations
                 {
                     Id = table.Column<Guid>(nullable: false),
                     ChatId = table.Column<Guid>(nullable: false),
+                    Content = table.Column<string>(nullable: false),
                     SenderId = table.Column<string>(nullable: true)
                 },
                 constraints: table =>

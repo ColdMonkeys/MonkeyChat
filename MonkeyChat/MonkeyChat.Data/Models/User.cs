@@ -10,7 +10,9 @@ namespace MonkeyChat.Data.Models
         public virtual User ParentUser { get; set; }
 
         public string ParentUserId { get; set; }
-        
+
+        public ICollection<User> Friends { get; set; }
+
         public ICollection<UserChat> UserChats { get; set; }
 
         public ICollection<Message> Messages { get; set; }

@@ -21,6 +21,11 @@ namespace MonkeyChat.App.Data
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
+            builder.Entity<User>()
+                 .HasMany(u => u.Friends)
+                 .WithOne(x => x.ParentUser)
+                 .HasForeignKey(x => x.ParentUserId);
+
             builder.Entity<Message>()
                 .HasOne(m => m.Sender)
                 .WithMany(u => u.Messages)

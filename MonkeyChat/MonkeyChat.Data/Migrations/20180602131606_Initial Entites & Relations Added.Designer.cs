@@ -11,8 +11,8 @@ using System;
 namespace MonkeyChat.Data.Migrations
 {
     [DbContext(typeof(MonkeyChatDbContext))]
-    [Migration("20180602130820_Message Content Added")]
-    partial class MessageContentAdded
+    [Migration("20180602131606_Initial Entites & Relations Added")]
+    partial class InitialEntitesRelationsAdded
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -288,7 +288,7 @@ namespace MonkeyChat.Data.Migrations
             modelBuilder.Entity("MonkeyChat.Data.Models.User", b =>
                 {
                     b.HasOne("MonkeyChat.Data.Models.User", "ParentUser")
-                        .WithMany()
+                        .WithMany("Friends")
                         .HasForeignKey("ParentUserId");
                 });
 

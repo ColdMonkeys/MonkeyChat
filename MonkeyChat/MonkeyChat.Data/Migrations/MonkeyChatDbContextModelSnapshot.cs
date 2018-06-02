@@ -287,7 +287,7 @@ namespace MonkeyChat.Data.Migrations
             modelBuilder.Entity("MonkeyChat.Data.Models.User", b =>
                 {
                     b.HasOne("MonkeyChat.Data.Models.User", "ParentUser")
-                        .WithMany()
+                        .WithMany("Friends")
                         .HasForeignKey("ParentUserId");
                 });
 
